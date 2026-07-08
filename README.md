@@ -37,7 +37,7 @@ LaravelとJavaScriptで構築した、データ駆動型のノベルゲームシ
 
 ## 使用技術（テックスタック）
 
-- **Backend:** PHP 8.x / Laravel 11.x
+- **Backend:** PHP 8.3 / Laravel 13.8
 - **Frontend:** HTML5 / CSS3 / JavaScript (Vanilla JS)
 - **Database:** MySQL
 - **Tooling:** Git / GitHub
