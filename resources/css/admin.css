@@ -1,0 +1,136 @@
+body{
+    font-family: sans-serif;
+    margin: 40px;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 24px;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table-wide{
+    max-width: 1200px;
+}
+
+th, td{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.admin-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+
+}
+
+.admin-btn{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid black;
+    color: white;
+}
+
+.btn-user{
+    background-color: #0056b3;
+    border: none;
+}
+.btn-user:hover{
+    background-color: #004085;
+}
+
+.btn-scene{
+    background-color: #28a745;
+    border: none;
+}
+.btn-scene:hover{
+    background-color: #218838;
+}
+
+.btn-asset{
+    background-color: #6f42c1;
+    border: none;
+}
+
+.btn-asset:hover{
+    background-color: #59359a;
+}
+
+.btn-back{
+    background-color: #6c757d;
+    border: none;
+}
+.btn-back:hover{
+    background-color: #5a6268;
+}
+
+.btn-danger{
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+.btn-danger:hover{
+    background-color: #bd2130;
+}
+
+.action-btn{
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.admin-card{
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    border-radius: 4px;
+}
+
+.card-title{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-group{
+    margin-bottom: 12px;
+}
+
+.error-msg{
+    display: block;
+    color: #dc3545;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.align-right{
+    float: right;
+}

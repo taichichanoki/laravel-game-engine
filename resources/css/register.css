@@ -1,0 +1,75 @@
+.h2-title{
+    color: #e0e5e2;
+    margin-bottom: 30px;
+    letter-spacing: 0.2rem;
+}
+
+.auth-form{
+    max-width:400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label{
+    color: #c4d0c9;
+    font-size: 0.9rem;
+}
+
+.form-control{
+    background-color: #1a221f;
+    border: 1px solid #3a4d44;
+    color: #e0e5e2;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-control:focus{
+    outline: none;
+    border-color: #526b5e;
+    box-shadow: 0 0 5px rgba(82, 107, 94, 0.5);
+}
+
+.error-message{
+    color: #ff6b6b;
+    font-size: 0.85rem;
+    margin-top: 4px;
+}
+
+.div-btn{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn{
+    margin: 0 auto;
+}
+
+.title_button{
+    color: #a0aba5;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.checkbox-group{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #a0aba5;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.checkbox-group input{
+    cursor: pointer;
+}
